@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HomeController {
 
-    @GetMapping("/")
-    public String home() {
+    @GetMapping("/api/status")
+    public String status() {
         return "Hospital Management System Backend is running!";
     }
 }
